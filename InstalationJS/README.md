@@ -37,3 +37,35 @@ console.log("Hello, World!");
 ```
 
 Simpan file tersebut, kemudian buka file `index.html` di browser. Setelah itu buka console untuk melihat output `Hello dari file HTML!`.
+
+## Menjalankan JavaScript dengan Node.js
+
+Node.js memungkinkan kita menjalankan JavaScript di luar browser, lewat terminal atau command prompt(cmd).
+
+- Cara Install Node.js
+  Silahkan download dan install Node.js dari situs resminya di [Node.js](https://nodejs.org/en/download/current), dan pastikan pilih versi LTS (Long Term Support).
+- Cek Hasil Installasi
+  Setelah berhasil melakukan installasi, kita bisa memastikannya dengan cara mengetikkan perintah berikut ini di dalam terminal/CMD.
+
+```
+node --version
+npm --version
+```
+
+Jika berhasil maka akan keluar versi Node.js dan NPM yang sudah terinstall.
+
+- Menjalankan JavaScript Dengan Node.js
+  Sebagai contoh disini saya ada file bernama `hello.js`, yang dimana didalam file tersebut sudah terdapat kode berikut.
+
+```js
+console.log("Hello dari Node.js!");
+```
+
+Dan untuk menjalankannya kita bisa ketikkan seperti berikut ini di dalam terminal/CMD.
+
+```
+// node [nama file yang ada]
+node hello.js
+```
+
+Jika berhasil maka akan muncul tulisan `Hello dari Node.js!`.
